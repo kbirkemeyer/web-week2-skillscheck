@@ -146,7 +146,7 @@ let total = myNumbers.reduce((acc, curr) => acc + curr)
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
-let myNumbersIndex = myNumbers.forEach(num => [num])
+// let myNumbersIndex = myNumbers.forEach(num => )
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
@@ -173,4 +173,4 @@ let enemies = people.filter(element => element.friend !== true)
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
 // Code Here
-let totallyAwesome = people.reduce((acc, curr, i) => acc + curr[i].awesomeLevel) 
+// let totallyAwesome = people.reduce((acc, curr, i) => acc + curr[i].awesomeLevel) 
